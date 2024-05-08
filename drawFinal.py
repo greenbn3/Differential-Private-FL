@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
     # Continue as needed for Laplace or other data
     plt.figure(figsize=(10, 6))
-    epsilon_array = ['10.0', '25.0', '50.0', '75.0', '100.0']
+    epsilon_array = ['1.0', '5.0', '10.0', '25.0', '50.0', '75.0', '100.0']
     plt.ylabel('Testing Accuracy', fontsize=14)
     plt.xlabel('Global Round', fontsize=14)
     plt.xticks(fontsize=12)
